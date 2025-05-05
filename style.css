@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(135deg, #ff5e78, #ff7e8a, #ffa4ac, #ffd1c1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.custom-card {
+  background-color: #ffe3d6;
+
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 320px;
+  transition: transform 0.3s ease;
+}
+.custom-card:hover {
+  transform: scale(1.05);
+}
+.custom-card h3 {
+  color: #4a2c2a;
+  font-weight: 400;
+}
+.custom-card p {
+  color: #ffd1c1;
+}
+.btn {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.custom-card img {
+  width: 300px;
+  height: auto;
+}
