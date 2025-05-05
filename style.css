@@ -1,29 +1,36 @@
+/* Body */
 body {
   background: linear-gradient(135deg, #ff8c42, #ff6b9a, #8a9bff);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0%;
 }
+
+/* Card */
 .custom-card {
   background-color: #311961;
   border-radius: 25px;
   margin: 40px;
-  max-width: 400px;
+  max-width: 90vw;
+  max-height: 90vh;
   padding: 30px;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 .custom-card:hover {
   transform: scale(1.05);
 }
+
+/* Heading */
 .custom-card h3 {
   color: #fff;
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+/* Image */
 .custom-card img {
   width: 280px;
   height: auto;
@@ -31,9 +38,22 @@ body {
   margin-bottom: 25px;
   transition: box-shadow 0.3s ease;
 }
+
 .custom-card img:hover {
   box-shadow: 0 0 15px rgba(221, 166, 166, 0.7);
 }
+
+/* Responsive */
+.profile-img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Button */
 .btn {
   font-weight: 400;
   margin-bottom: 15px;
@@ -42,22 +62,28 @@ body {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   width: 100%;
 }
+
+/* Primary */
 .btn-primary {
   background-color: #ff6b9a;
   border-color: #ff6b9a;
   color: #fff;
 }
+
 .btn-primary:hover {
   background-color: #ff87b2;
   border-color: #ff87b2;
   box-shadow: 0 0 15px rgba(255, 107, 154, 0.7);
   transform: translateY(-2px);
 }
+
+/* Info */
 .btn-info {
   background-color: #8a9bff;
   border-color: #8a9bff;
   color: #fff;
 }
+
 .btn-info:hover {
   background-color: #9ca8ff;
   border-color: #9ca8ff;
